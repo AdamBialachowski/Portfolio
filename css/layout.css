@@ -33,7 +33,7 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background: #161415 url(../images/header-background.jpg) no-repeat top center;
+   background: #161415 url(../images/facebook.jpg) no-repeat top center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
@@ -57,18 +57,26 @@ header .banner {
 }
 
 header .circular {
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
   border-color: #ffffff;
-  border-width: 10px;
+  border-width: 5px;
   border-style: solid;
 }
 
-header .banner-text { width: 100%; }
+header .banner-text { width: 10  0%; }
 header .banner-text h1 {
    /*font: 90px/1.1em 'opensans-bold', sans-serif;*/
    font: 90px/1.1em 'Lobster', sans-serif;
+   color: #fff;
+   letter-spacing: -2px;
+   margin: 0 auto 18px auto;
+   text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
+}
+header .banner-text h2 {
+   /*font: 90px/1.1em 'opensans-bold', sans-serif;*/
+   font: 45px/1.1em 'Lobster', sans-serif;
    color: #fff;
    letter-spacing: -2px;
    margin: 0 auto 18px auto;
